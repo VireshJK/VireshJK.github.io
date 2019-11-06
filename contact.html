@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive nav</title>
+    <link rel="stylesheet" href="style2.css">
+    <script>
+        src = "scripts.js"
+
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sirin+Stencil&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <ul class="flex-container">
+                <a href="index.html"><img src="foodtruckart.png" alt="Foodtruck"></a>
+                <li><a href="404.html">Zoek een truck</a></li>
+                <li><a href="404.html">Over ons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Contact</h2>
+        <h3>Heeft u een vraag of opmerking? Laat het ons weten en wij zullen ons best doen om zo snel mogelijk te reageren!</h3>
+
+        <form action="bedankt.html" >
+            <label for="naam">Naam:</label>
+            <input type="text" name="firstname" placeholder="Voornaam">
+            <label for="email">E-mail:</label>
+
+            <input type="text" name="email" placeholder="bijv. janjansen@email.nl">
+            <label for="vraag">Vraag of opmerking:</label>
+            <textarea name="vraag" id="vraag" placeholder="Vul hier je vraag of opmerking in." cols="30" rows="10"></textarea><br><br>
+            <input type="submit" value="Verstuur">
+        </form><br>
+        <a class="link" href="index.html">Terug naar Home</a>
+    </main>
